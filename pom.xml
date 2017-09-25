@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.nie</groupId>
+  <artifactId>spring-cloud-parent</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>spring cloud parent</name>
+  <modules>
+		<module>register</module>
+		<module>provider</module>
+		<module>ribbon-consumer</module>
+		<module>feign-consumer</module>
+		<module>dashboard</module>
+		<module>turbine</module>
+    <module>test</module>
+    <module>msa-hello</module>
+  </modules>
+
+<properties>
+		<!-- Application settings -->
+		<amp.genericCore>true</amp.genericCore>
+		<amp.fullSource>true</amp.fullSource>
+		<maven.test.skip>true</maven.test.skip>
+		<!-- framework -->
+
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+		</dependencies>
+	</dependencyManagement>
+	
+</project>
